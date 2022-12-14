@@ -1,8 +1,11 @@
+package main;
+
 public class Jeweler extends Person{
     private Double priceService;
 
-    public Jeweler(String firstName, String lastName, String phoneNumber, String address) {
+    public Jeweler(String firstName, String lastName, String phoneNumber, String address, Double priceService) {
         super(firstName, lastName, phoneNumber, address);
+        setPriceService(priceService);
     }
 
     public Double getPriceService() {

@@ -1,3 +1,5 @@
+package main;
+
 public class MaterialType {
     private String name;
     private String description;

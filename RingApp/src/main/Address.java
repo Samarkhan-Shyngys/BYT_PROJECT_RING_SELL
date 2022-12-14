@@ -1,3 +1,5 @@
+package main;
+
 public class Address {
     public Address(String nameOfAddress) {
         this.nameOfAddress = nameOfAddress;

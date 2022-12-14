@@ -1,3 +1,7 @@
+package main;
+
+import main.Address;
+
 public abstract class Person {
     private String firstName;
     private String lastName;
@@ -36,5 +40,14 @@ public abstract class Person {
     public void setPhoneNumber(String phoneNumber) {
         if (phoneNumber == null) throw new NullPointerException("phoneNumber cannot be null");
         this.phoneNumber = phoneNumber;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        if (phoneNumber == null) throw new NullPointerException("Address cannot be null");
+        this.address = address;
     }
 }

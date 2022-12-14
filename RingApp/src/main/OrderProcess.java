@@ -1,3 +1,5 @@
+package main;
+
 public class OrderProcess {
     private Order order;
     private Jeweler jeweler;
